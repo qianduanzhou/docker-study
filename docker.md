@@ -23,3 +23,10 @@
 2. 创建一个Dockerfile文件，写入docker相关配置
 3. 与mysql关联，通过network创建一个公用网络
 4. 通过Dockerfile生成同个network下的container
+
+## Docker Compose
+
+Compose 是用于定义和运行多容器 Docker 应用程序的工具。
+
+[docker compose]: https://www.runoob.com/docker/docker-compose.html	"docker compose"
+
