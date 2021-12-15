@@ -1,7 +1,7 @@
 version: '2'
 services: 
   golang:
-    build: .
+    build: ./beego
     container_name: "dc_go"
     ports: 
      - "8080:8080"
@@ -17,3 +17,8 @@ services:
       MYSQL_ROOT_HOST: "%"
     ports: 
      - "3306:3306"
+  vue: 
+    build: ./vue
+    container_name: "dc_vue"
+    ports: 
+     - "8020:80"
