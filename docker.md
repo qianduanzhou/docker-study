@@ -24,6 +24,10 @@
 3. 与mysql关联，通过network创建一个公用网络
 4. 通过Dockerfile生成同个network下的container
 
+## 容器连接
+连接mysql和golang
+docker network create -d bridge 网络名称
+网络名称对应docker-compose.yml里面的network_mode
 ## Docker Compose
 
 Compose 是用于定义和运行多容器 Docker 应用程序的工具。
